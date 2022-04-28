@@ -1,0 +1,20 @@
+# 前缀
+prefix: "&7[&aSlime&7]"
+
+# 史莱姆区块颜色
+slime_color: "&a"
+
+# 普通区块颜色
+normal_color: "&7"
+
+# 中心史莱姆区块颜色
+center_slime_color: "&2"
+
+# 中心非史莱姆区块颜色
+center_normal_color: "&0"
+
+# 区块字符
+char: "█"
+
+# 检测半径
+range: 3

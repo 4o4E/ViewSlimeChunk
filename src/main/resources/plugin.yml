@@ -1,0 +1,15 @@
+name: ViewSlimeChunk
+version: '${project.version}'
+main: top.e404.viewslimechunk.Main
+api-version: 1.17
+authors: [ 404E ]
+commands:
+  slime:
+    permission: viewslimechunk.use
+  slimereload:
+    permission: viewslimechunk.admin
+permissions:
+  viewslimechunk.use:
+    default: op
+  viewslimechunk.admin:
+    default: op
