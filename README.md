@@ -11,8 +11,8 @@
 
 ## 指令
 
-> `/slime` 查看周围史莱姆区块, 对应权限`viewslimechunk.use`
-> `/slimereload` 重载配置文件, 对应权限`viewslimechunk.admin`
+- `/slime` 查看周围史莱姆区块, 对应权限`viewslimechunk.use`
+- `/slimereload` 重载配置文件, 对应权限`viewslimechunk.admin`
 
 ## 权限
 
