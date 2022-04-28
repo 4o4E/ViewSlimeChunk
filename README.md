@@ -23,6 +23,10 @@
 
 > 插件默认配置见[配置文件](src/main/resources/config.yml)，配置文件内均有注释描述用法和含义
 
+## 效果预览
+
+![example](https://user-images.githubusercontent.com/58851040/165770877-cb1ab16e-7ba7-41fc-901c-9c2606d8e55f.png)
+
 ## 下载
 
 - [最新版](https://github.com/4o4E/ViewSlimeChunk/releases/latest)
