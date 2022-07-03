@@ -1,0 +1,30 @@
+prefix: "&7[&aSlime&7]"
+char: "█"
+
+color:
+  slime: "&a"
+  normal: "&7"
+  center:
+    slime: "&2"
+    normal: "&0"
+
+hover:
+  is: "&a是"
+  is_not: "&c不是"
+  normal: |-
+    &f区块&b{x}&f, &b{z}
+    &f中心&a{cx}&f, &a{cz}
+    {b}史莱姆区块
+  center: |-
+    &f你所在的区块&b{x}&f, &b{z}
+    &f中心&a{cx}&f, &a{cz}
+    {b}史莱姆区块
+
+message:
+  noperm: "&c无权限"
+  non_player: "&c仅玩家可用"
+  unknown_command: "&c未知指令"
+  invalid_args: "&c无效参数"
+
+command:
+  reload: "&a重载完成"

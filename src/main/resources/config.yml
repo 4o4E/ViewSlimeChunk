@@ -1,35 +1,5 @@
 # 检查更新
 update: true
 
-# 前缀
-prefix: "&7[&aSlime&7]"
-
-# 史莱姆区块颜色
-slime_color: "&a"
-
-# 普通区块颜色
-normal_color: "&7"
-
-# 悬浮的文本
-hover: |-
-  &f区块&b{x}&f, &b{z}
-  &f中心&a{cx}&f, &a{cz}
-  {b}史莱姆区块
-
-# 中心史莱姆区块颜色
-center_slime_color: "&2"
-
-# 中心非史莱姆区块颜色
-center_normal_color: "&0"
-
-# 悬浮的文本
-center_hover: |-
-  &f你所在的区块&b{x}&f, &b{z}
-  &f中心&a{cx}&f, &a{cz}
-  {b}史莱姆区块
-
-# 区块字符
-char: "█"
-
 # 检测半径
 range: 3
