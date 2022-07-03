@@ -14,12 +14,9 @@ class Main : EPlugin() {
 
     override val bstatsId = 15069
     override val debugPrefix = ""
-    override val langManager = Lang
-    override val prefix = Lang["prefix"]
-
-    override fun enableDebug(): Boolean {
-        TODO("Not yet implemented")
-    }
+    override val langManager by lazy { Lang }
+    override val prefix by lazy { Lang["prefix"] }
+    override fun enableDebug() = false
 
     override fun onEnable() {
         instance = this
