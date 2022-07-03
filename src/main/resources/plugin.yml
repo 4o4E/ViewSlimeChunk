@@ -4,10 +4,8 @@ main: top.e404.viewslimechunk.Main
 api-version: 1.17
 authors: [ 404E ]
 commands:
-  slime:
-    permission: viewslimechunk.use
-  slimereload:
-    permission: viewslimechunk.admin
+  slime: { }
+  slimereload: { }
 permissions:
   viewslimechunk.use:
     default: op
