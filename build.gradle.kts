@@ -6,17 +6,19 @@ plugins {
 }
 
 group = "top.e404"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
+    mavenLocal()
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://oss.sonatype.org/content/groups/public/")
     mavenCentral()
-    mavenLocal()
 }
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:1.13.2-R0.1-SNAPSHOT")
+    // eplugin
+    implementation("top.e404:eplugin:1.0.2")
     // Bstats
     implementation("org.bstats:bstats-bukkit:3.0.0")
 }
