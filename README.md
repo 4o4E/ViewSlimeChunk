@@ -4,7 +4,7 @@
 
 > 基于SpigotAPI的史莱姆区块预览插件, 适用于Spigot或Paper以及其他绝大多数Spigot的下游分支核心(不支持Bukkit)
 >
-> 版本支持：理论上支持`1.13.x`-`1.19.x`, `1.18.x`和`1.19`经过测试
+> 版本支持：理论上支持`1.13.x`-`1.19.x`, `1.18.x`和`1.19.x`经过测试
 
 [![Release](https://img.shields.io/github/v/release/4o4E/ViewSlimeChunk?label=Release)](https://github.com/4o4E/ViewSlimeChunk/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/4o4E/ViewSlimeChunk/total?label=Download)](https://github.com/4o4E/ViewSlimeChunk/releases)
@@ -39,6 +39,7 @@
 2022.04.28 - 1.0.0 发布插件
 2022.04.28 - 1.0.1 添加更新检查, 添加悬浮文本自定义, 修复错误的文本
 2022.07.03 - 1.0.2 优化插件，分离配置文件和语言文件
+2022.08.18 - 1.0.3 配置文件中添加禁用的世界
 ```
 
 ## bstats
