@@ -3,3 +3,8 @@ update: true
 
 # 检测半径
 range: 3
+
+# 禁用的世界
+disable:
+  - world_nether
+  - world_the_end

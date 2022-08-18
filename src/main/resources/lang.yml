@@ -25,6 +25,7 @@ message:
   non_player: "&c仅玩家可用"
   unknown_command: "&c未知指令"
   invalid_args: "&c无效参数"
+  invalid_world: "&c当前世界不可使用此指令"
 
 command:
   reload: "&a重载完成"

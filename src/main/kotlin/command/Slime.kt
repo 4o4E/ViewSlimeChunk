@@ -28,8 +28,13 @@ object Slime : ECommandManager(
         args: Array<out String>,
     ): Boolean {
         if (!plugin.isPlayer(sender, true)) return true
+        sender as Player
         if (!plugin.hasPerm(sender, "viewslimechunk.use", true)) return true
-        sendSlimeChunk(sender as Player)
+        if (sender.world.name in Config.disable) {
+            plugin.sendMsgWithPrefix(sender, Lang["message.invalid_world"])
+            return true
+        }
+        sendSlimeChunk(sender)
         return true
     }
 

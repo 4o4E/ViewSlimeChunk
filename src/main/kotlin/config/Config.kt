@@ -11,4 +11,7 @@ object Config : EConfig(
 ) {
     val range: Int
         get() = config.getInt("range")
+
+    val disable: List<String>
+        get() = config.getStringList("message.invalid_world")
 }
