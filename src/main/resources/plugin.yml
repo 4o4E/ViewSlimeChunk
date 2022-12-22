@@ -1,11 +1,13 @@
 name: ViewSlimeChunk
 version: '${project.version}'
 main: top.e404.viewslimechunk.Main
-api-version: 1.17
+api-version: 1.13
 authors: [ 404E ]
 commands:
-  slime: { }
-  slimereload: { }
+  slime:
+    description: "插件主命令"
+  slimereload:
+    description: "重载插件"
 permissions:
   viewslimechunk.use:
     default: op

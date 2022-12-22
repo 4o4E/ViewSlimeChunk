@@ -1,12 +1,12 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.7.10"
+    kotlin("jvm") version "1.7.22"
     id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 
 group = "top.e404"
-version = "1.0.3"
+version = "1.0.4"
 
 repositories {
     mavenLocal()
@@ -33,6 +33,7 @@ tasks.shadowJar {
     archiveFileName.set("${project.name}-${project.version}.jar")
     relocate("org.bstats", "top.e404.viewslimechunk.relocate.bstats")
     relocate("kotlin", "top.e404.viewslimechunk.relocate.kotlin")
+    relocate("top.e404.eplugin", "top.e404.viewslimechunk.relocate.eplugin")
     exclude("META-INF/*")
     doFirst {
         for (file in File("jar").listFiles() ?: arrayOf()) {
