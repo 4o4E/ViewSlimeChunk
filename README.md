@@ -4,7 +4,7 @@
 
 > 基于SpigotAPI的史莱姆区块预览插件, 适用于Spigot或Paper以及其他绝大多数Spigot的下游分支核心(不支持Bukkit)
 >
-> 版本支持：理论上支持`1.13.x`-`1.19.x`, `1.18.x`和`1.19.x`经过测试
+> 版本支持: `1.13.x`及更高版本, `1.18.x`和`1.19.x`经过测试
 
 [![Release](https://img.shields.io/github/v/release/4o4E/ViewSlimeChunk?label=Release)](https://github.com/4o4E/ViewSlimeChunk/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/4o4E/ViewSlimeChunk/total?label=Download)](https://github.com/4o4E/ViewSlimeChunk/releases)
